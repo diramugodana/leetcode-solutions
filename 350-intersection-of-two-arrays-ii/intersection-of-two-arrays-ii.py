@@ -14,4 +14,14 @@ class Solution:
                 res.append(num)
                 count1[num] -= 1
         return res
+
+    # time complexity -> 
+    # Build counter = O(n) (count every element in nums1)
+    # Iterate through nums2 = O(m)
+    # Each lookup/ delete = O(1)
+    # TOTAL TIME COMPLEXITY = O(n+m)
+
+    # space complexity ->
+    # count1 = O(n)
+    # TOTAL SPACE COMPLEXITY = O(n)
         
